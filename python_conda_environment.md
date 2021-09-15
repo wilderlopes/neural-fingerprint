@@ -1,9 +1,11 @@
-# Installation instructions 
+# Python environment to run the example scripts 
+
+Let's build a python environment in order to run the example scripts out of the box.
 
 General idea: install Anaconda and create a Python 2.7 environment with Scipy and RDkit. This is the easiest way
 to run the code without running into trouble. Converting this repo to Python 3 may result in a lot of headaches. I do not recommend going through it unless you REALLY need to make it compatible with a Python 3 application. 
 
-Step-by-step:
+# Creation of Python environment step-by-step:
 
 1. [Install Anaconda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
 
@@ -37,6 +39,17 @@ print rdkit.__version__
 
 ```bash
 $ conda install scipy autograd  
+```
+
+# Run examples
+
+Using the environment created above, you can run the scripts in [experiments](experiments/).
+
+For example, run the regression script:
+
+```bash
+$ python examples/regressions.py
+
 ```
 
 
