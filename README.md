@@ -21,6 +21,9 @@ This package requires:
 * [RDkit](http://www.rdkit.org/docs/Install.html)
 * [Autograd](http:github.com/HIPS/autograd) (Just run `pip install autograd`)
 
+Detailed installation instructions are described in [python_conda_environment](python_conda_environment.md).
+
+
 ## Examples
 
 This package includes a [regression example](examples/regression.py) and a [visualization example](examples/visualization.py) in the examples directory.
